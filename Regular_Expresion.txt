@@ -1,0 +1,13 @@
+# Regular_Expression
+phone number => ^(\d{3}) (\d{4}) (\d{3}|\(\d{3}\))$
+email => ^[a-z0-9]+@[a-z0-9]+\.[a-z]+$
+site => ^(https?://)(www.)(\w+)(.com|.net|.info|.me)$
+
+
+# import re  =>  Search About (Regular Expression)
+
+# re.search()  =>  given the first match only  =>  variable = re.search("Regular_Expression", "user_input")
+# regular_name.findall()  =>  given all matches in a list  =>  variable = re.findall("Regular_Expression", "user_input")
+# regular_name.span()  =>  موقع المبحث عنه (index)  =>  print(regular_name.span())
+# regular_name.string  =>  الذي يتم التأكد منه (user_input)  =>  print(regular_name.string)
+# regular_name.group() =>  المبحث عنه (match)  =>  print(regular_name.group())
